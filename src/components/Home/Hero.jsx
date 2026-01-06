@@ -2,7 +2,7 @@ import { imgCAM92 } from '../../assets/images';
 
 export default function Hero() {
   return (
-    <section className="relative w-full h-[1095px] mt-[100px]">
+    <section className="relative w-full h-[1095px] mt-[100px] overflow-visible" style={{ zIndex: 2 }}>
       {/* Background Image with Gradient Overlay */}
       <div className="absolute inset-0">
         <img 
@@ -55,8 +55,8 @@ export default function Hero() {
           Start Your Journey
         </button>
         
-        {/* Right Form - GET A DESIGN CONSULTATION! */}
-        <div className="absolute left-4 xl:left-[1244px] top-[888px] bg-[rgba(20,48,96,0.73)] rounded-[10px] p-8 w-[min(calc(100%-2rem),608px)] min-h-[400px] z-50 relative">
+        {/* Right Form - GET A DESIGN CONSULTATION! - Overlaps Hero and What We Do sections */}
+        <div className="absolute left-4 xl:left-[1244px] top-[888px] bg-[rgba(20,48,96,0.73)] rounded-[10px] p-8 w-[min(calc(100%-2rem),608px)] min-h-[400px] z-[100] relative" style={{ position: 'absolute' }}>
           <h2 className="text-[#bda162] text-[24px] font-gotham-book mb-6">
             GET A DESIGN CONSULTATION!
           </h2>

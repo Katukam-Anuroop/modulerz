@@ -2,7 +2,7 @@ import { imgCAM93, imgElegantModernLivingRoomWithEntertainmentCenter1, imgCover3
 
 export default function WhatWeDo() {
   return (
-    <section className="relative bg-[#f8f5ed] h-[1745px] rounded-tl-[30px] rounded-tr-[30px] w-full max-w-[1920px] mx-auto">
+    <section className="relative bg-[#f8f5ed] h-[1745px] rounded-tl-[30px] rounded-tr-[30px] w-full max-w-[1920px] mx-auto overflow-visible" style={{ zIndex: 1 }}>
       {/* Rounded corner fill - Hero section color */}
       <div className="absolute -top-[30px] left-0 w-[60px] h-[60px] bg-[#143060]" style={{ borderRadius: '0 0 30px 0', zIndex: -1 }} />
       <div className="absolute -top-[30px] right-0 w-[60px] h-[60px] bg-[#143060]" style={{ borderRadius: '0 0 0 30px', zIndex: -1 }} />
