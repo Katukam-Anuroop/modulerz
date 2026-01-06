@@ -43,5 +43,3 @@ npm run lint
 - **React** - UI library
 - **Vite** - Build tool and dev server
 - **ESLint** - Code linting
-
-
