@@ -43,7 +43,7 @@ export default function Contact() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section with Form */}
-      <section className="relative w-full h-[400px] sm:h-[500px] md:h-[600px] lg:h-[1535px] mt-[100px]">
+      <section className="relative w-full max-w-[1920px] mx-auto h-[400px] sm:h-[500px] md:h-[600px] lg:h-[1535px] mt-[100px]">
         {/* Gradient Background */}
         <div 
           className="absolute inset-0"
@@ -390,7 +390,7 @@ export default function Contact() {
               {/* Submit Button */}
               <button
                 type="submit"
-                className="absolute left-4 xl:left-[389px] top-[1380px] bg-[#143060] text-[#dda152] px-12 py-4 rounded-[20px] font-griggs text-[36px] hover:opacity-90 transition-opacity"
+                className="absolute left-4 xl:left-[389px] top-[1420px] bg-[#143060] text-[#dda152] px-12 py-4 rounded-[20px] font-griggs text-[36px] hover:opacity-90 transition-opacity"
               >
                 Submit
               </button>
@@ -400,7 +400,7 @@ export default function Contact() {
       </section>
       
       {/* Map/Image Section */}
-      <section className="relative w-full h-[400px] sm:h-[500px] md:h-[600px] lg:h-[850px] rounded-tl-[30px] rounded-tr-[30px] w-full max-w-[1920px] mx-auto overflow-hidden">
+      <section className="relative w-full max-w-[1920px] mx-auto h-[400px] sm:h-[500px] md:h-[600px] lg:h-[850px] rounded-tl-[30px] rounded-tr-[30px] overflow-hidden">
         {/* Rounded corner fill - Hero section color */}
         <div className="absolute -top-[30px] left-0 w-[60px] h-[60px] bg-[#143060] hidden lg:block" style={{ borderRadius: '0 0 30px 0', zIndex: -1 }} />
         <div className="absolute -top-[30px] right-0 w-[60px] h-[60px] bg-[#143060] hidden lg:block" style={{ borderRadius: '0 0 0 30px', zIndex: -1 }} />

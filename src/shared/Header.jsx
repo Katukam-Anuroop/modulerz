@@ -14,12 +14,14 @@ export default function Header() {
 
   return (
     <header 
-      className="fixed top-0 left-0 w-full h-[100px] z-50 shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]" 
-      style={{ 
-        backgroundImage: "linear-gradient(90deg, rgb(20, 48, 96) 34.96%, rgb(221, 161, 82) 100%)" 
-      }}
+      className="fixed top-0 left-0 w-full h-[100px] z-50"
     >
-      <div className="w-full h-full max-w-[1920px] mx-auto px-4 sm:px-6 md:px-8 lg:px-[309px] flex items-center justify-between relative">
+      <div 
+        className="w-full h-full max-w-[1920px] mx-auto px-4 sm:px-6 md:px-8 lg:px-[309px] flex items-center justify-between relative shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]"
+        style={{ 
+          backgroundImage: "linear-gradient(90deg, rgb(20, 48, 96) 34.96%, rgb(221, 161, 82) 100%)" 
+        }}
+      >
         {/* Logo - Left Side */}
         <Link to="/" className="flex items-center flex-shrink-0 z-50" onClick={closeMenu}>
           <img 
@@ -34,9 +36,9 @@ export default function Header() {
           <Link to="/" className="text-white text-[18px] font-inter font-normal whitespace-nowrap hover:opacity-80 transition-opacity">
             Home
           </Link>
-          <a href="#about" className="text-white text-[18px] font-inter font-normal whitespace-nowrap hover:opacity-80 transition-opacity">
+          <Link to="/about-us" className="text-white text-[18px] font-inter font-normal whitespace-nowrap hover:opacity-80 transition-opacity">
             About Us
-          </a>
+          </Link>
           <Link to="/solutions" className="text-white text-[18px] font-inter font-normal whitespace-nowrap hover:opacity-80 transition-opacity">
             Solutions
           </Link>
@@ -99,13 +101,13 @@ export default function Header() {
             >
               Home
             </Link>
-            <a
-              href="#about"
+            <Link
+              to="/about-us"
               className="text-white text-[18px] font-inter font-normal py-3 px-4 hover:bg-white hover:bg-opacity-20 rounded-lg transition-colors"
               onClick={closeMenu}
             >
               About Us
-            </a>
+            </Link>
             <Link
               to="/solutions"
               className="text-white text-[18px] font-inter font-normal py-3 px-4 hover:bg-white hover:bg-opacity-20 rounded-lg transition-colors"

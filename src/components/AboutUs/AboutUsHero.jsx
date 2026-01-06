@@ -1,4 +1,4 @@
-export default function BlogHero() {
+export default function AboutUsHero() {
   return (
     <section className="relative w-full max-w-[1920px] mx-auto h-[400px] sm:h-[500px] md:h-[600px] lg:h-[697px] mt-[100px]">
       {/* Gradient Background */}
@@ -15,21 +15,22 @@ export default function BlogHero() {
         <div 
           className="absolute left-4 sm:left-8 md:left-16 lg:left-4 xl:left-[360px] top-16 sm:top-24 md:top-32 lg:top-[193px]"
           style={{
-            color: '#DDA152',
+            color: '#FFFFFF',
             fontSize: 'clamp(32px, 5vw, 80px)',
             fontFamily: 'Griggs',
             fontWeight: '400',
             lineHeight: '1.264'
           }}
         >
-          The Modern Home Guide
+          <p className="mb-0">Defined by exceptional</p>
+          <p>crafting precision</p>
         </div>
         
         {/* Description */}
         <p 
-          className="absolute left-4 sm:left-8 md:left-16 lg:left-4 xl:left-[366px] top-32 sm:top-40 md:top-48 lg:top-[332px] font-gotham-book text-white text-[16px] sm:text-[20px] md:text-[24px] lg:text-[30px] leading-[1.264] w-[calc(100%-2rem)] sm:w-[600px] md:w-[650px] lg:w-[calc(100%-2rem)] xl:w-[715px]"
+          className="absolute left-4 sm:left-8 md:left-16 lg:left-4 xl:left-[366px] top-32 sm:top-40 md:top-48 lg:top-[408px] font-gotham-book text-white text-[16px] sm:text-[20px] md:text-[24px] lg:text-[30px] leading-[1.264] w-[calc(100%-2rem)] sm:w-[600px] md:w-[650px] lg:w-[calc(100%-2rem)] xl:w-[715px]"
         >
-          Design and organization tips, ideas, and inspiration for your home.
+          When space became a constraint, intelligence became the solution.
         </p>
       </div>
     </section>

@@ -1,6 +1,6 @@
 export default function ProjectsHero() {
   return (
-    <section className="relative w-full h-[400px] sm:h-[500px] md:h-[600px] lg:h-[697px] mt-[100px]">
+    <section className="relative w-full max-w-[1920px] mx-auto h-[400px] sm:h-[500px] md:h-[600px] lg:h-[697px] mt-[100px]">
       {/* Gradient Background */}
       <div 
         className="absolute inset-0"
