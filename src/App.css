@@ -1,0 +1,41 @@
+/* Custom fonts - You may need to add these fonts via @import or link in index.html */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* Font face declarations for custom fonts */
+@font-face {
+  font-family: 'Griggs:Flare';
+  src: url('path-to-griggs-flare-font.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham:Book';
+  src: url('path-to-gotham-book-font.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham:Medium';
+  src: url('path-to-gotham-medium-font.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
